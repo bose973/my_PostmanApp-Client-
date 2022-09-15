@@ -1,0 +1,369 @@
+
+/* .App{ */
+    /* background: linear-gradient(rgb(230, 100, 101) , rgb(145, 152, 229));
+} */
+
+.topnav {
+    background-color: #041E42;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:1600px;
+    z-index: 9999;
+  }
+
+.topnav > h1{
+    float:left;
+    margin:0;
+    margin-left:25px;
+    margin-top:2px;
+    font-size:25px;
+    padding:5px;
+    color:aliceblue;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right:80px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+background-color: #36454F;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+background-color: #1E90FF;
+color: white;
+}
+
+.leftpanel{
+    position:fixed;
+    width:150px;
+    margin-top:20px;
+    background-color: #36454F;
+}
+.leftpanel>div{
+    /* background-color: #041E42; */
+    width:100px;
+    padding:20px;
+    padding-bottom:40px;
+}
+
+.leftpanel>div>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size:15px;
+}
+.leftpanel .line{
+    position:relative;
+    padding-top:10px;
+    left:150px;
+    bottom:407px;
+    border-left:4px solid white;
+    height:1000px;
+}
+
+.leftpanel>div>a:hover{
+    background-color: #6082B6;
+    transition-duration: 0.4s;
+}
+.request{
+    position:relative;
+    top:50px;
+    overflow: hidden;
+    margin-left:250px;
+    max-width: 1200px;
+    margin-top:30px;
+    
+}
+
+.request > h3{
+    padding-right:1350px;
+    color: white;
+    font-weight:100;
+}
+
+/* .request > img{
+    height:50px;
+    width:40px;
+    padding-right:1350px;
+} */
+
+.headings{
+    
+    margin-left:250px;
+}
+
+.headings > table {
+    
+    width:80%;
+    table-layout: auto;
+    background-color: #36454F;
+    padding-bottom:20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border : 2px solid #6082B6;
+}
+
+.headings>table:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.headings{
+    margin-left : 20px;
+    padding-bottom:30px;
+    max-width: 1200px;
+}
+
+#thone{
+    width:10%;
+    border-right: 1px solid #ddd;
+    color:grey;
+}
+
+#thsecond{
+    width : 70%;
+    border-right: 1px solid #ddd;
+    color:grey;
+}
+
+#ththird{
+    width:10%;
+    color:grey;
+
+}
+
+#tdone{
+    width:10%;
+    border-right: 1px solid #ddd;
+    margin-right:5px;
+}
+
+#tdtwo{
+    width : 70%;
+    border-right: 1px solid #ddd;
+}
+
+#tdthird{
+    width:10%
+}
+
+/* #url{
+    fill: 393F44;
+    border-bottom: 85888C 2px;
+} */
+
+#url{
+    width:850px;
+    height:30px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-bottom: blue;
+    border-radius: 5px;
+} 
+
+/* #url:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none ;
+    background-color: -internal-light-dark(black, white);
+    color: fieldtext;
+} */
+
+#url[type = "text"]{
+    /* background-color: black;
+    color: white; */
+    padding-left:15px;
+    font-size: 15px;
+}
+
+#send{
+    margin-left:10px;
+    margin-right:10px;
+    height: 35px;
+    width:60px;
+    border-width:2px;
+    transition-duration: 0.4s;
+    background-color: #1E90FF;
+    color : white;
+    font-weight: 600;
+    position:relative;
+    left:750px;
+    bottom:65px;
+}
+
+#send:hover{
+    background-color:blue;
+    color:white;
+}
+
+#requests{
+    height:35px;
+    margin-left:10px;
+    margin-right:10px;
+    border-color: black;
+    background-color: lightgrey;
+    border-width: 2px;
+}
+
+.radioButton{
+    margin-top:50px;
+    margin-left:100px;
+    position:relative;
+    padding-right:1370px;
+    font-weight:700;
+    color:white;
+    font-weight:100;
+    width:100px;
+    
+}
+
+#radio1{
+    position:relative;
+    left:250px;
+    bottom:20px;
+}
+
+#radio2{
+    position:relative;
+    left:500px;
+    bottom:40px;
+}
+
+.allFields{
+    position:relative;
+    bottom:50px;
+}
+
+.headerField{
+    margin-left:130px;
+    max-width:1000px;
+}
+
+#headingKey,#headingValue{
+    color:white;
+    font-weight:400;
+    
+}
+#key1 {
+    width:200px;
+    padding:5px;
+    margin-bottom:20px;
+    background-color: #36454F;
+    color:white;
+}
+
+#value1 {
+    width:700px;
+    padding:5px;
+    margin-bottom:20px;
+    background-color: #36454F;
+    color:white;
+}
+/* .radioButton2{
+    padding-right:120px;
+    font-weight:700;
+    color:white;
+    font-weight:100;
+    width:100px;
+    
+} */
+
+.bodyField > h3{
+    padding-right:1370px;
+    color:white;
+    font-weight:100;
+    bottom:1400px;
+}
+
+.bodyField > textarea{
+    height:200px;
+    width:1100px;
+    font-size:20px;
+    padding:5px;
+    background-color: #36454F;
+    color: white;
+
+}
+
+.bodyField>textarea::placeholder{
+    font-size:20px;
+}
+
+.inputFields{
+    
+    margin-left:130px;
+    max-width:1000px;
+}
+
+.inputFields>input{
+    width:700px;
+    padding:5px;
+    margin-bottom:20px;
+    background-color: #36454F;
+    color:white;
+
+}
+
+.inputFields> select{
+    width:710px;
+    height:35px;
+    padding:5px;
+    margin-bottom:5px;
+    background-color: #36454F;
+    color:white;
+}
+
+.inputFields>label{
+    display:block;
+    color:lightgrey;
+    margin-right:870px;
+    position:relative;
+    bottom:48px;
+    
+
+}
+.response{
+    position:relative;
+    top:50px;
+    padding-top:20px;
+    margin-left:250px;
+    max-width: 1200px;
+    
+}
+
+.response > h3{
+    padding-right:1350px;
+    color:white;
+    font-weight:100;
+}
+#top{
+    padding-top:8px;
+}
+.response > input{
+    width:1400px;
+    height:200px;
+}
+
+.response .output>textarea{
+    height:200px;
+    width:1200px;
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size:15px;
+    background-color: #36454F;
+    color:white;
+}
+
